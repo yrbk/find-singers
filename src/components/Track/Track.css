@@ -1,0 +1,26 @@
+.track {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    text-align: left;
+}
+
+.picture {
+    border-radius: 4px;
+    margin: 20px 10px 0 20px;
+}
+
+.info {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 21px);
+    grid-row-gap: 5px;
+}
+
+.info-span {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

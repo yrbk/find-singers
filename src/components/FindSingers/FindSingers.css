@@ -1,0 +1,11 @@
+.tracks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+
+.nothing {
+    font-size: 20px;
+    color: #999999;
+}
